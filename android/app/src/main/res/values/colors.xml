@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--overridable by flavor-->
+    <color name="colorPrimary">#FFf5c13b</color>
+    <color name="colorNavHeaderMore">@color/colorPrimary</color>
+    <color name="colorSecondary32">#52f5c13b</color>
+    <color name="colorSecondary8">#14f5c13b</color>
+    <color name="colorTertiary">@color/red_e95d00</color>
+
+    <!--rest of the default colors-->
+    <color name="colorTextMainV1">#808080</color>
+    <color name="colorBorderNegativeButton">#969696</color>
+
+    <color name="jungle_green">#272f3c</color>
+    <color name="blue_gray">#5b9bd3</color>
+    <color name="charocal">#2f3848</color>
+    <color name="gainsboro">#d7dce3</color>
+    <color name="trollery_gray">#7d828a</color>
+    <color name="outer_space">#434955</color>
+    <color name="taupe">#333333</color>
+    <color name="platinum">#e4e6eb</color>
+    <color name="ghost_white">#f8f9fb</color>
+    <color name="platinum_green">#dfefd6</color>
+    <color name="pastel_green">#c5dbb9</color>
+    <color name="yellow">#EDC157</color>
+    <color name="black_yellow">#373737</color>
+    <color name="sent_to_color">#235E91</color>
+    <color name="received_color">#569F6F</color>
+
+    <color name="dim_gray_new">#786067</color>
+    <color name="old_lavender">#707173</color>
+    <color name="lust">#ed1c24</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="custom_bg">#F9F9F9</color>
+    <color name="dim_gray">#636466</color>
+    <color name="sea_green">#43894e</color>
+    <color name="light_gray">#d0d0d1</color>
+
+    <color name="lavander_mist">#d6e6f4</color>
+    <color name="text_color_new">#393939</color>
+    <color name="text_color">#434955</color>
+    <color name="blue">#805b9bd3</color>
+    <color name="charocal_gray">#383f46</color>
+    <color name="background_gray">#f2f2f2</color>
+    <color name="cool_blue">#528ebe</color>
+    <color name="color_logout">#099ef3</color>
+    <color name="snow_white">#fbfbfb</color>
+    <color name="battleship_gray">#6a7075</color>
+    <color name="oker_trasparent_01">#20ecb94d</color>
+    <color name="border_grey">#979797</color>
+    <color name="checklist_item">#FAF9F7</color>
+    <color name="checklist_date">#B2B5B9</color>
+    <color name="checklist_bg">#F5F5F5</color>
+    <color name="circle_grey">#D8D8D8</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#fff</color>
+    <color name="green_pastel">#67BDB5</color>
+    <color name="new_bg_grey">#f5f5f5</color>
+    <color name="new_text_grey">#808080</color>
+    <color name="new_profile_grey">#acacac</color>
+    <color name="new_profile_black">#404040</color>
+    <color name="munsell">#f0f1f1</color>
+    <color name="gray_f0f0f0">#f0f0f0</color>
+    <color name="pair_bg">#e3eef7</color>
+    <color name="cornflower_blue">#689ACE</color>
+    <color name="gray_seperator">#EBEBEC</color>
+    <color name="gray_remove">#F5F6F6</color>
+    <color name="blue_appointment">#80B3CCE6</color>
+    <color name="gray_3b3b3b">#3b3b3b</color>
+    <color name="gray_838389">#838389</color>
+
+    <color name="blue_appointment_vertical">#679ACE</color>
+
+    <color name="scorpion">#746167</color>
+    <color name="disabled">#30808080</color>
+
+    <color name="white_transparent">#b3ffffff</color>
+
+    <color name="bg_fafafa">#fafafa</color>
+
+    <color name="light_gray_e2e2e2">#e2e2e2</color>
+    <color name="light_gray_text_88888">#888888</color>
+
+    <color name="light_gray_dcdcdc">#dcdcdc</color>
+
+    <color name="gray_ccccc">#cccccc</color>
+    <color name="line_grey">#B2B5B9</color>
+    <color name="blue_chart">#69d6c9</color>
+    <color name="red_chart">#ff858c</color>
+
+    <color name="progress_dots">#393939</color>
+    <color name="category_bg">#e5e5e5</color>
+    <color name="light_gray_b2b2b2">#b2b2b2</color>
+    <color name="light_gray_515151">#515151</color>
+    <color name="text_dark_gray">#383f46</color>
+
+    <color name="text_blue_002b63">#002b63</color>
+    <color name="gray_ededed">#ededed</color>
+    <color name="blue_4963ae">#4963ae</color>
+    <color name="blue_4d99d9">#4d99d9</color>
+
+    <color name="blue_light_e6f6ff">#e6f6ff</color>
+    <color name="selector">#28888888</color>
+    <color name="selector_white">#58ffffff</color>
+    <color name="gray_hint">#808080</color>
+    <color name="default_background">#FAFAFA</color>
+    <color name="black_333333">#333333</color>
+
+    <color name="black_393939">#393939</color>
+    <color name="color_default">#3F51B5</color>
+    <color name="color_text">#5f6368</color>
+    <color name="blue_68D6C9">#68D6C9</color>
+    <color name="scoring_result_red">#FF868E</color>
+    <color name="scoring_result_yellow">#FFC75F</color>
+    <color name="scoring_result_green">#5EC294</color>
+    <color name="scoring_result_orange">#FF935F</color>
+
+    <color name="scoring_result_black">#393939</color>
+    <color name="pollen_level_0">#dedede</color>
+    <color name="pollen_level_1">#f7bb20</color>
+    <color name="pollen_level_2">#ff7530</color>
+    <color name="pollen_level_3">#ed1c24</color>
+    <color name="black_222222">#222222</color>
+    <color name="gray_808080">#808080</color>
+    <color name="red_f53948">#f53948</color>
+
+    <color name="blue_0069b3">#0069b3</color>
+
+    <!--Entertainment module-->
+    <color name="colorGray97">#f7f7f7</color>
+    <color name="colorGainsboro">#d8d8d8</color>
+    <color name="colorEndeavour">#235e91</color>
+    <color name="colorNero">#222222</color>
+    <color name="color_5ec294">#5ec294</color>
+    <color name="gray_bg">#ededed</color>
+
+    <!-- Messages module -->
+
+    <color name="text_gray_2b2b2b">#2b2b2b</color>
+    <color name="gray_a8a8a8">#a8a8a8</color>
+    <color name="recived_message_background">#d9d9d9</color>
+    <color name="recived_text_color">#0a0a0a</color>
+    <color name="gray_6f6f6f">#6f6f6f</color>
+    <color name="gray_0b0b0b">#0b0b0b</color>
+    <color name="highlight_blue">#0091ff</color>
+    <color name="red_e95d00">#e95d00</color>
+
+    <array name="graph">
+        <item>@color/blue_chart</item>
+        <item>@color/red_chart</item>
+        <item>@color/scoring_result_yellow</item>
+        <item>@color/scoring_result_orange</item>
+        <item>@color/colorEndeavour</item>
+        <item>@color/scorpion</item>
+        <item>#aaaa00</item>
+    </array>
+
+    <!-- Patient journey module -->
+    <color name="gray_e6e6e6">#e6e6e6</color>
+    <color name="black_434955">#434955</color>
+    <color name="gray_f7f7f7">#f7f7f7</color>
+
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_5c5c5c">#5C5C5C</color>
+    <color name="gray_9d9d9d">#9d9d9d</color>
+    <color name="gray_4963ae">#144963ae</color>
+
+    <color name="color_6CBB94">#6CBB94</color>
+    <color name="color_d3d3d3">#d3d3d3</color>
+    <color name="color_404040">#404040</color>
+    <color name="color_7a7a7a">#7a7a7a</color>
+    <color name="color_fbc4ca">#fbc4ca</color>
+    <color name="color_666666">#666666</color>
+
+    <color name="gray_999a9f">#999a9f</color>
+
+    <!--covid module-->
+    <color name="covid_positive">#FDD0D3</color>
+    <color name="covid_negative">#D9F1E6</color>
+    <color name="blue_56a5e0">#56a5e0</color>
+    <color name="chat_bubble_E2E6F2">#E2E6F2</color>
+    <color name="black_4c4c4c">#4c4c4c</color>
+
+    <!-- notifications -->
+    <color name="notification_red">#a00014</color>
+
+    <color name="color_eeeeee">#EEEEEE</color>
+    <color name="color_e0e0e0">#E0E0E0</color>
+    <color name="color_f5c13b">#F5C13B</color>
+    <color name="color_999999">#999999</color>
+    <color name="colorPrimaryYellow">#ffc40c</color>
+
+</resources>
