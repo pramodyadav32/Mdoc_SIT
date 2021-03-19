@@ -7,13 +7,19 @@ buildscript {
         compileSdkVersion = 29
         targetSdkVersion = 29
         ndkVersion = "20.1.5948944"
+        kotlin_version = '1.1.60'
     }
     repositories {
         google()
         jcenter()
+        maven {
+            url 'https://maven.google.com'
+        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:4.1.0")
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.20"
+
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -30,9 +36,21 @@ allprojects {
             // Android JSC is installed from npm
             url("$rootDir/../node_modules/jsc-android/dist")
         }
+        maven { url 'https://tokbox.bintray.com/maven' }
+
 
         google()
         jcenter()
         maven { url 'https://www.jitpack.io' }
     }
 }
+
+
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+//task buildAllDebugVerions() {
+//    dependsOn ':app:assembleDebug'
+//}

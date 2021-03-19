@@ -1,7 +1,12 @@
 apply plugin: "com.android.application"
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
 apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 
 import com.android.build.OutputFile
+def BITRISE_CONFIG = System.getenv("ENV") as String
 
 /**
  * The react.gradle file registers a task for each build variant (e.g. bundleDebugJsAndAssets
@@ -128,7 +133,32 @@ def jscFlavor = 'org.webkit:android-jsc:+'
  */
 def enableHermes = project.ext.react.get("enableHermes", false);
 
+androidExtensions {
+    experimental = true
+}
+
+def getProperties(path) {
+    def properties = new Properties()
+    properties.load(new FileInputStream(rootProject.file("config/$path" + ".properties")))
+    return properties
+}
+
+def devProperties = getProperties("dev")
+
+def dev2Properties = getProperties("dev2")
+
+def propertiesBitriseFile = rootProject.file("config/$BITRISE_CONFIG" + ".properties")
+def propertiesBitrise = new Properties()
+if (propertiesBitriseFile.canRead()) {
+    propertiesBitrise.load(new FileInputStream(propertiesBitriseFile))
+}
+
 android {
+
+    buildFeatures {
+        dataBinding = true
+    }
+
     ndkVersion rootProject.ext.ndkVersion
 
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -146,6 +176,13 @@ android {
         versionCode project.env.get("ANDROID_VERSION_CODE").toInteger()
         versionName project.env.get("ANDROID_VERSION_NAME")
     }
+
+
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
     splits {
         abi {
             reset()
@@ -154,6 +191,9 @@ android {
             include "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
         }
     }
+
+    flavorDimensions "default"
+
     signingConfigs {
         debug {
             storeFile file('debug.keystore')
@@ -161,17 +201,60 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        dev {
+            keyAlias devProperties['keyAlias']
+            keyPassword devProperties['keyPassword']
+            storeFile rootProject.file(devProperties['storeFile'])
+            storePassword devProperties['storePassword']
+        }
+        dev2 {
+            storeFile rootProject.file(dev2Properties['storeFile'])
+            storePassword dev2Properties['storePassword']
+            keyAlias = dev2Properties['keyAlias']
+            keyPassword dev2Properties['keyPassword']
+        }
     }
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
         }
-        release {
-            // Caution! In production, you need to generate your own keystore file.
-            // see https://reactnative.dev/docs/signed-apk-android.
-            signingConfig signingConfigs.debug
+
+        staging {
             minifyEnabled enableProguardInReleaseBuilds
-            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.dev
+        }
+        release {
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.dev2
+        }
+    }
+
+    productFlavors {
+        def addEnvConfig = { target, localConfig ->
+            def res = ['base_url']
+            res.each {
+                def localConfigProperty = localConfig.getProperty(it,"")
+                target.resValue 'string', it, "${propertiesBitrise.getProperty(it, localConfigProperty)}"
+            }
+        }
+
+        dev {
+            applicationId project.env.get("APP_ID")
+            signingConfig signingConfigs.dev
+            versionCode project.env.get("ANDROID_VERSION_CODE").toInteger()
+            versionName project.env.get("ANDROID_VERSION_NAME")
+            buildConfigField 'String', 'FLAV', '"dev"'
+            addEnvConfig(owner, devProperties)
+        }
+        dev2 {
+            applicationId project.env.get("APP_ID_DEV")
+            signingConfig signingConfigs.dev2
+            versionCode project.env.get("ANDROID_VERSION_CODE_DEV").toInteger()
+            versionName project.env.get("ANDROID_VERSION_NAME_DEV")
+           buildConfigField 'String', 'FLAV', '"dev2"'
+            addEnvConfig(owner, dev2Properties)
         }
     }
 
@@ -189,6 +272,19 @@ android {
             }
 
         }
+    }
+
+    configurations {
+        cleanedAnnotations
+        compile.exclude group: 'org.jetbrains', module: 'annotations'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+        disable 'InvalidPackage'
     }
 }
 
@@ -211,6 +307,7 @@ dependencies {
     debugImplementation("com.facebook.flipper:flipper-fresco-plugin:${FLIPPER_VERSION}") {
         exclude group:'com.facebook.flipper'
     }
+
 
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermes-engine/android/";
