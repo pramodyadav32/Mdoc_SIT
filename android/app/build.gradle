@@ -220,11 +220,13 @@ android {
         }
 
         staging {
+            matchingFallbacks = ['release', 'debug', 'staging']
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.dev
         }
         release {
+            matchingFallbacks = ['release', 'debug', 'staging']
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.dev2
