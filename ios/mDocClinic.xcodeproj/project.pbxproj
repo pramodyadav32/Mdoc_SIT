@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* mDocClinicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* mDocClinicTests.m */; };
-		01EFBF449AF45A4748191A85 /* libPods-mDocClinic-mDocClinicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EE70222B72579D1A4A0F66 /* libPods-mDocClinic-mDocClinicTests.a */; };
+		06EABC48D9EA810B277DD7B1 /* libPods-mDoc-mDocClinicDevelopment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B17F8CC93161A2B9D0382259 /* libPods-mDoc-mDocClinicDevelopment.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		38D3F86E6FA66E7C678EBFC4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		482B6448260B865F00FAE097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		482B6449260B865F00FAE097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		482B644D260B865F00FAE097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		482B644E260B865F00FAE097 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		48AEFCC3260B909C00F6A5ED /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */; };
+		48AEFCC4260B909C00F6A5ED /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBF260B909C00F6A5ED /* Poppins-Medium.ttf */; };
+		48AEFCC5260B909C00F6A5ED /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC0260B909C00F6A5ED /* Poppins-Regular.ttf */; };
+		48AEFCC6260B909C00F6A5ED /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC1260B909C00F6A5ED /* Poppins-Bold.ttf */; };
+		48AEFCC7260B909C00F6A5ED /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC2260B909C00F6A5ED /* Poppins-SemiBold.ttf */; };
+		48AEFCCB260B918000F6A5ED /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */; };
+		48AEFCCC260B918000F6A5ED /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBF260B909C00F6A5ED /* Poppins-Medium.ttf */; };
+		48AEFCCD260B918000F6A5ED /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC0260B909C00F6A5ED /* Poppins-Regular.ttf */; };
+		48AEFCCE260B918000F6A5ED /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC1260B909C00F6A5ED /* Poppins-Bold.ttf */; };
+		48AEFCCF260B918000F6A5ED /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC2260B909C00F6A5ED /* Poppins-SemiBold.ttf */; };
+		48AEFCD8260B924000F6A5ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		48AEFCD9260B924000F6A5ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		48AEFCDD260B924000F6A5ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		48AEFCDE260B924000F6A5ED /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC2260B909C00F6A5ED /* Poppins-SemiBold.ttf */; };
+		48AEFCDF260B924000F6A5ED /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC1260B909C00F6A5ED /* Poppins-Bold.ttf */; };
+		48AEFCE0260B924000F6A5ED /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBF260B909C00F6A5ED /* Poppins-Medium.ttf */; };
+		48AEFCE1260B924000F6A5ED /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */; };
+		48AEFCE2260B924000F6A5ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		48AEFCE3260B924000F6A5ED /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC0260B909C00F6A5ED /* Poppins-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		E44C5F6CC63C840F26918073 /* libPods-mDocClinic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2406EA071844D0FEC4B37673 /* libPods-mDocClinic.a */; };
+		CA52089F4FD62080A98120D5 /* libPods-mDoc-mDocClinic-mDocClinicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECB6FF511BCFEDEC727B80B /* libPods-mDoc-mDocClinic-mDocClinicTests.a */; };
+		E31E11F1DFC40760E7B6E63C /* libPods-mDoc-mDocClinicProduction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EB54A2E00CF75E67FB018A /* libPods-mDoc-mDocClinicProduction.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +55,34 @@
 		00E356EE1AD99517003FC87E /* mDocClinicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mDocClinicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* mDocClinicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mDocClinicTests.m; sourceTree = "<group>"; };
+		0D799185C95067896EFA713A /* Pods-mDoc-mDocClinicDevelopment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinicDevelopment.release.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* mDocClinic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mDocClinic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = mDocClinic/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = mDocClinic/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = mDocClinic/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mDocClinic/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mDocClinic/main.m; sourceTree = "<group>"; };
-		15EABCAE581F2EBBA9DA497E /* Pods-mDocClinic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDocClinic.release.xcconfig"; path = "Target Support Files/Pods-mDocClinic/Pods-mDocClinic.release.xcconfig"; sourceTree = "<group>"; };
-		15EE70222B72579D1A4A0F66 /* libPods-mDocClinic-mDocClinicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mDocClinic-mDocClinicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2406EA071844D0FEC4B37673 /* libPods-mDocClinic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mDocClinic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AFA8091602F267202B8CF2B /* Pods-mDocClinic-mDocClinicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDocClinic-mDocClinicTests.debug.xcconfig"; path = "Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CFD7685267AA8A160AB9E92 /* Pods-mDoc-mDocClinic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinic.release.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic.release.xcconfig"; sourceTree = "<group>"; };
+		29105008C196DFE61255F967 /* Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		482B6455260B865F00FAE097 /* mDocClinicDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mDocClinicDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		48AEFCBF260B909C00F6A5ED /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		48AEFCC0260B909C00F6A5ED /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		48AEFCC1260B909C00F6A5ED /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		48AEFCC2260B909C00F6A5ED /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		48AEFCEA260B924000F6A5ED /* mDocClinicProduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mDocClinicProduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48AEFD3A260B941400F6A5ED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F8D268260B8CF8003FC2D7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5743C8445F24F4B35CCFA05A /* Pods-mDoc-mDocClinic-mDocClinicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinic-mDocClinicTests.release.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests.release.xcconfig"; sourceTree = "<group>"; };
+		6538F882612171D6E79E9315 /* Pods-mDoc-mDocClinic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinic.debug.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic.debug.xcconfig"; sourceTree = "<group>"; };
+		67F03E5136065270005A3682 /* Pods-mDoc-mDocClinicProduction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinicProduction.release.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mDocClinic/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C045DF98C0EACDD379691746 /* Pods-mDocClinic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDocClinic.debug.xcconfig"; path = "Target Support Files/Pods-mDocClinic/Pods-mDocClinic.debug.xcconfig"; sourceTree = "<group>"; };
-		E1134C92FDF6F3F0E02B30FC /* Pods-mDocClinic-mDocClinicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDocClinic-mDocClinicTests.release.xcconfig"; path = "Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9EB54A2E00CF75E67FB018A /* libPods-mDoc-mDocClinicProduction.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mDoc-mDocClinicProduction.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17F8CC93161A2B9D0382259 /* libPods-mDoc-mDocClinicDevelopment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mDoc-mDocClinicDevelopment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F25DC22F9E63939A1F82AC9E /* Pods-mDoc-mDocClinicProduction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinicProduction.debug.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE8CE424A2BC7DCA56AF868 /* Pods-mDoc-mDocClinicDevelopment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinicDevelopment.debug.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment.debug.xcconfig"; sourceTree = "<group>"; };
+		FECB6FF511BCFEDEC727B80B /* libPods-mDoc-mDocClinic-mDocClinicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mDoc-mDocClinic-mDocClinicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01EFBF449AF45A4748191A85 /* libPods-mDocClinic-mDocClinicTests.a in Frameworks */,
+				CA52089F4FD62080A98120D5 /* libPods-mDoc-mDocClinic-mDocClinicTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E44C5F6CC63C840F26918073 /* libPods-mDocClinic.a in Frameworks */,
+				38D3F86E6FA66E7C678EBFC4 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482B644A260B865F00FAE097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06EABC48D9EA810B277DD7B1 /* libPods-mDoc-mDocClinicDevelopment.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEFCDA260B924000F6A5ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E31E11F1DFC40760E7B6E63C /* libPods-mDoc-mDocClinicProduction.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,10 +155,40 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				2406EA071844D0FEC4B37673 /* libPods-mDocClinic.a */,
-				15EE70222B72579D1A4A0F66 /* libPods-mDocClinic-mDocClinicTests.a */,
+				FECB6FF511BCFEDEC727B80B /* libPods-mDoc-mDocClinic-mDocClinicTests.a */,
+				B17F8CC93161A2B9D0382259 /* libPods-mDoc-mDocClinicDevelopment.a */,
+				A9EB54A2E00CF75E67FB018A /* libPods-mDoc-mDocClinicProduction.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		482B6418260B858800FAE097 /* mDocClinicDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				48F8D268260B8CF8003FC2D7 /* Info.plist */,
+			);
+			path = mDocClinicDevelopment;
+			sourceTree = "<group>";
+		};
+		48AEFCBD260B909C00F6A5ED /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */,
+				48AEFCBF260B909C00F6A5ED /* Poppins-Medium.ttf */,
+				48AEFCC0260B909C00F6A5ED /* Poppins-Regular.ttf */,
+				48AEFCC1260B909C00F6A5ED /* Poppins-Bold.ttf */,
+				48AEFCC2260B909C00F6A5ED /* Poppins-SemiBold.ttf */,
+			);
+			name = fonts;
+			path = ../src/assets/fonts;
+			sourceTree = "<group>";
+		};
+		48AEFCD3260B921700F6A5ED /* mDocClinicProduction */ = {
+			isa = PBXGroup;
+			children = (
+				48AEFD3A260B941400F6A5ED /* Info.plist */,
+			);
+			path = mDocClinicProduction;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -116,6 +201,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				48AEFCD3260B921700F6A5ED /* mDocClinicProduction */,
+				48AEFCBD260B909C00F6A5ED /* fonts */,
+				482B6418260B858800FAE097 /* mDocClinicDevelopment */,
 				13B07FAE1A68108700A75B9A /* mDocClinic */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* mDocClinicTests */,
@@ -133,6 +221,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* mDocClinic.app */,
 				00E356EE1AD99517003FC87E /* mDocClinicTests.xctest */,
+				482B6455260B865F00FAE097 /* mDocClinicDevelopment.app */,
+				48AEFCEA260B924000F6A5ED /* mDocClinicProduction.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +230,14 @@
 		F91B14D8DEC3C3311EBDBC0B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C045DF98C0EACDD379691746 /* Pods-mDocClinic.debug.xcconfig */,
-				15EABCAE581F2EBBA9DA497E /* Pods-mDocClinic.release.xcconfig */,
-				6AFA8091602F267202B8CF2B /* Pods-mDocClinic-mDocClinicTests.debug.xcconfig */,
-				E1134C92FDF6F3F0E02B30FC /* Pods-mDocClinic-mDocClinicTests.release.xcconfig */,
+				6538F882612171D6E79E9315 /* Pods-mDoc-mDocClinic.debug.xcconfig */,
+				1CFD7685267AA8A160AB9E92 /* Pods-mDoc-mDocClinic.release.xcconfig */,
+				29105008C196DFE61255F967 /* Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig */,
+				5743C8445F24F4B35CCFA05A /* Pods-mDoc-mDocClinic-mDocClinicTests.release.xcconfig */,
+				FCE8CE424A2BC7DCA56AF868 /* Pods-mDoc-mDocClinicDevelopment.debug.xcconfig */,
+				0D799185C95067896EFA713A /* Pods-mDoc-mDocClinicDevelopment.release.xcconfig */,
+				F25DC22F9E63939A1F82AC9E /* Pods-mDoc-mDocClinicProduction.debug.xcconfig */,
+				67F03E5136065270005A3682 /* Pods-mDoc-mDocClinicProduction.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -155,12 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "mDocClinicTests" */;
 			buildPhases = (
-				AFEFF4F81CCB8B032A5DB601 /* [CP] Check Pods Manifest.lock */,
+				5343772A9D3ECD1894B481BD /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				7B7AE86836386786E64084F6 /* [CP] Embed Pods Frameworks */,
-				73039FED71550F87233BD09A /* [CP] Copy Pods Resources */,
+				3AE980CA44E281B16749CAB3 /* [CP] Embed Pods Frameworks */,
+				822E2550D2A7E18E1A84847F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +270,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "mDocClinic" */;
 			buildPhases = (
-				31661EB1013B5E96AEA298B8 /* [CP] Check Pods Manifest.lock */,
+				06A06FB236A5D346793E7470 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				6801171058C4BA9C24970CBE /* [CP] Embed Pods Frameworks */,
-				52211F9EAEB07BFD32CCFEFB /* [CP] Copy Pods Resources */,
+				494D81DFDB73F32AA6EBABEE /* [CP] Embed Pods Frameworks */,
+				D2602137B908B0DA638349F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +286,50 @@
 			name = mDocClinic;
 			productName = mDocClinic;
 			productReference = 13B07F961A680F5B00A75B9A /* mDocClinic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		482B6444260B865F00FAE097 /* mDocClinicDevelopment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 482B6452260B865F00FAE097 /* Build configuration list for PBXNativeTarget "mDocClinicDevelopment" */;
+			buildPhases = (
+				E3ABC064F61B3ED77DDB619D /* [CP] Check Pods Manifest.lock */,
+				482B6446260B865F00FAE097 /* Start Packager */,
+				482B6447260B865F00FAE097 /* Sources */,
+				482B644A260B865F00FAE097 /* Frameworks */,
+				482B644C260B865F00FAE097 /* Resources */,
+				482B644F260B865F00FAE097 /* Bundle React Native code and images */,
+				A47B11D019D8E4EF3CDA3A69 /* [CP] Embed Pods Frameworks */,
+				20F13ACB087DF018386FA2B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mDocClinicDevelopment;
+			productName = mDocClinic;
+			productReference = 482B6455260B865F00FAE097 /* mDocClinicDevelopment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48AEFCD4260B924000F6A5ED /* mDocClinicProduction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48AEFCE7260B924000F6A5ED /* Build configuration list for PBXNativeTarget "mDocClinicProduction" */;
+			buildPhases = (
+				48AEFCD5260B924000F6A5ED /* [CP] Check Pods Manifest.lock */,
+				48AEFCD6260B924000F6A5ED /* Start Packager */,
+				48AEFCD7260B924000F6A5ED /* Sources */,
+				48AEFCDA260B924000F6A5ED /* Frameworks */,
+				48AEFCDC260B924000F6A5ED /* Resources */,
+				48AEFCE4260B924000F6A5ED /* Bundle React Native code and images */,
+				48AEFCE5260B924000F6A5ED /* [CP] Embed Pods Frameworks */,
+				48AEFCE6260B924000F6A5ED /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mDocClinicProduction;
+			productName = mDocClinic;
+			productReference = 48AEFCEA260B924000F6A5ED /* mDocClinicProduction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -226,6 +364,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* mDocClinic */,
 				00E356ED1AD99517003FC87E /* mDocClinicTests */,
+				482B6444260B865F00FAE097 /* mDocClinicDevelopment */,
+				48AEFCD4260B924000F6A5ED /* mDocClinicProduction */,
 			);
 		};
 /* End PBXProject section */
@@ -243,7 +383,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				48AEFCC7260B909C00F6A5ED /* Poppins-SemiBold.ttf in Resources */,
+				48AEFCC6260B909C00F6A5ED /* Poppins-Bold.ttf in Resources */,
+				48AEFCC4260B909C00F6A5ED /* Poppins-Medium.ttf in Resources */,
+				48AEFCC3260B909C00F6A5ED /* Poppins-Light.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				48AEFCC5260B909C00F6A5ED /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482B644C260B865F00FAE097 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AEFCCB260B918000F6A5ED /* Poppins-Light.ttf in Resources */,
+				48AEFCCC260B918000F6A5ED /* Poppins-Medium.ttf in Resources */,
+				48AEFCCD260B918000F6A5ED /* Poppins-Regular.ttf in Resources */,
+				48AEFCCE260B918000F6A5ED /* Poppins-Bold.ttf in Resources */,
+				48AEFCCF260B918000F6A5ED /* Poppins-SemiBold.ttf in Resources */,
+				482B644D260B865F00FAE097 /* LaunchScreen.storyboard in Resources */,
+				482B644E260B865F00FAE097 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEFCDC260B924000F6A5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AEFCDD260B924000F6A5ED /* LaunchScreen.storyboard in Resources */,
+				48AEFCDE260B924000F6A5ED /* Poppins-SemiBold.ttf in Resources */,
+				48AEFCDF260B924000F6A5ED /* Poppins-Bold.ttf in Resources */,
+				48AEFCE0260B924000F6A5ED /* Poppins-Medium.ttf in Resources */,
+				48AEFCE1260B924000F6A5ED /* Poppins-Light.ttf in Resources */,
+				48AEFCE2260B924000F6A5ED /* Images.xcassets in Resources */,
+				48AEFCE3260B924000F6A5ED /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +437,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		31661EB1013B5E96AEA298B8 /* [CP] Check Pods Manifest.lock */ = {
+		06A06FB236A5D346793E7470 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,82 +452,81 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mDocClinic-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mDoc-mDocClinic-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		52211F9EAEB07BFD32CCFEFB /* [CP] Copy Pods Resources */ = {
+		20F13ACB087DF018386FA2B4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic/Pods-mDocClinic-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic/Pods-mDocClinic-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDocClinic/Pods-mDocClinic-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6801171058C4BA9C24970CBE /* [CP] Embed Pods Frameworks */ = {
+		3AE980CA44E281B16749CAB3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic/Pods-mDocClinic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic/Pods-mDocClinic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDocClinic/Pods-mDocClinic-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		73039FED71550F87233BD09A /* [CP] Copy Pods Resources */ = {
+		482B6446260B865F00FAE097 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+			);
+			name = "Start Packager";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests-resources.sh\"\n";
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7B7AE86836386786E64084F6 /* [CP] Embed Pods Frameworks */ = {
+		482B644F260B865F00FAE097 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			name = "Bundle React Native code and images";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDocClinic-mDocClinicTests/Pods-mDocClinic-mDocClinicTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		AFEFF4F81CCB8B032A5DB601 /* [CP] Check Pods Manifest.lock */ = {
+		48AEFCD5260B924000F6A5ED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -369,7 +541,186 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-mDocClinic-mDocClinicTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mDoc-mDocClinicProduction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48AEFCD6260B924000F6A5ED /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		48AEFCE4260B924000F6A5ED /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		48AEFCE5260B924000F6A5ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48AEFCE6260B924000F6A5ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicProduction/Pods-mDoc-mDocClinicProduction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		494D81DFDB73F32AA6EBABEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5343772A9D3ECD1894B481BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mDoc-mDocClinic-mDocClinicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		822E2550D2A7E18E1A84847F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47B11D019D8E4EF3CDA3A69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinicDevelopment/Pods-mDoc-mDocClinicDevelopment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2602137B908B0DA638349F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3ABC064F61B3ED77DDB619D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mDoc-mDocClinicDevelopment-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -415,6 +766,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		482B6447260B865F00FAE097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482B6448260B865F00FAE097 /* AppDelegate.m in Sources */,
+				482B6449260B865F00FAE097 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48AEFCD7260B924000F6A5ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AEFCD8260B924000F6A5ED /* AppDelegate.m in Sources */,
+				48AEFCD9260B924000F6A5ED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -428,7 +797,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AFA8091602F267202B8CF2B /* Pods-mDocClinic-mDocClinicTests.debug.xcconfig */;
+			baseConfigurationReference = 29105008C196DFE61255F967 /* Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -436,7 +805,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = mDocClinicTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,12 +824,12 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1134C92FDF6F3F0E02B30FC /* Pods-mDocClinic-mDocClinicTests.release.xcconfig */;
+			baseConfigurationReference = 5743C8445F24F4B35CCFA05A /* Pods-mDoc-mDocClinic-mDocClinicTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = mDocClinicTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,7 +848,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C045DF98C0EACDD379691746 /* Pods-mDocClinic.debug.xcconfig */;
+			baseConfigurationReference = 6538F882612171D6E79E9315 /* Pods-mDoc-mDocClinic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -496,7 +865,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdocclinic;
 				PRODUCT_NAME = mDocClinic;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -506,7 +875,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15EABCAE581F2EBBA9DA497E /* Pods-mDocClinic.release.xcconfig */;
+			baseConfigurationReference = 1CFD7685267AA8A160AB9E92 /* Pods-mDoc-mDocClinic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -522,8 +891,112 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdocclinic;
 				PRODUCT_NAME = mDocClinic;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		482B6453260B865F00FAE097 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE8CE424A2BC7DCA56AF868 /* Pods-mDoc-mDocClinicDevelopment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/mDocClinicDevelopment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdocclinic.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		482B6454260B865F00FAE097 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D799185C95067896EFA713A /* Pods-mDoc-mDocClinicDevelopment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "$(SRCROOT)/mDocClinicDevelopment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdocclinic.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		48AEFCE8260B924000F6A5ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25DC22F9E63939A1F82AC9E /* Pods-mDoc-mDocClinicProduction.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = mDocClinicProduction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdocclinic.pro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		48AEFCE9260B924000F6A5ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67F03E5136065270005A3682 /* Pods-mDoc-mDocClinicProduction.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = mDocClinicProduction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mdocclinic.pro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -669,6 +1142,24 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		482B6452260B865F00FAE097 /* Build configuration list for PBXNativeTarget "mDocClinicDevelopment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				482B6453260B865F00FAE097 /* Debug */,
+				482B6454260B865F00FAE097 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48AEFCE7260B924000F6A5ED /* Build configuration list for PBXNativeTarget "mDocClinicProduction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AEFCE8260B924000F6A5ED /* Debug */,
+				48AEFCE9260B924000F6A5ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

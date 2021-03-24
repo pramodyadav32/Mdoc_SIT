@@ -25,8 +25,10 @@
 
     "android-pro": "ENVFILE=.env.production npx react-native run-android",
     "clean-android-pro": "ENVFILE=.env.production cd android && ./gradlew clean && ./gradlew --stop && ./gradlew cleanBuildCache && cd  ..",
-    "android-build-pro": "ENVFILE=.env.production npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+    "android-build-pro": "ENVFILE=.env.production npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
 
+    "ios-dev": "npx react-native run-ios --scheme \"mDocClinicDevelopment\"",
+    "ios-pro": "npx react-native run-ios --scheme \"mDocClinicProduction\""
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
