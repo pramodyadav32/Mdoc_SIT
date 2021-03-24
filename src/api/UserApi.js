@@ -2,9 +2,9 @@ import Base from "./BaseApi";
 
 export default class UserAPI extends Base {
 
-    loginUser(data, isFormData = true) {
+    loginUser(data) {
         console.log("data ====> ", data);
-        return this.apiClient.post('api/LoginController', data, isFormData);
+        return this.apiClient.post('v1/user/login', data);
     }
 
 }

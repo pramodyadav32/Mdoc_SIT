@@ -1,8 +1,10 @@
 
 import queryString from 'query-string';
+import { Platform } from 'react-native';
+import Config from 'react-native-config';
 import DeviceHelper from '../utils/DeviceHelper';
 
-export const API_BASE_URL = "https://abcd.com";
+export const API_BASE_URL =  Config.API_URL;
 export const SEESION_EXPIRE = "Your session is expired. Please try to login again.";
 export const NO_INTERNET_MSG = "No Internet connection. Make sure that Wi-Fi or mobile data is turned on,then try again";
 
@@ -87,8 +89,11 @@ export default class ApiClient {
         const urlWithQuery = `${url}?${queryString.stringify(params)}`;
         console.log("urlWithQuery=======> ", `${this.prefix}/${urlWithQuery}`);
         let headers = {
-           // 'Accept': 'application/json',
-           // 'Content-Type': 'application/json'
+            'Accept': 'application/json',
+            'Content-Type': 'application/json',
+            'User-Source': Platform.OS == "android" ? "ANDROID" : "iOS",
+            'Accept-Language': "en",
+            "User-Agent": "m-doc"
         }
         console.log("headers : ", headers);
         const init = {

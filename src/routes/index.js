@@ -4,7 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 import * as RouteConst from './RouteConst';
 import {LoginPage, SplashPage} from '../pages/';
 
-import { View } from 'react-native';
+import { View , Text} from 'react-native';
 import { connect, useStore } from 'react-redux';
 
 const MainStack = createStackNavigator();
@@ -34,7 +34,12 @@ export const MainRoute = (props) => {
         </View>
     }
 
-
+    if(loginData){
+      alert(JSON.stringify(loginData));
+      return <View style={{flex:1}}>
+              <Text>Home Page Routes Here</Text>
+      </View>
+    }
    
    return (<MainStack.Navigator
           screenOptions={{
