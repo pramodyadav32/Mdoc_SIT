@@ -15,7 +15,18 @@
     "android-linux": "npx react-native run-android --terminal \"$PWD/shgnome\"",
     "android-build-release": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && cd android/ && ./gradlew assembleRelease && cd ..",
     "ios-build": "npx react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ios/main.jsbundle --assets-dest ios",
-    "android-build": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+    "android-build": "npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+
+
+    "android-dev": "ENVFILE=.env.development npx react-native run-android",
+    "clean-android-dev": "ENVFILE=.env.development cd android && ./gradlew clean && ./gradlew --stop && ./gradlew cleanBuildCache && cd  ..",
+    "android-build-dev": "ENVFILE=.env.development npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res",
+
+
+    "android-pro": "ENVFILE=.env.production npx react-native run-android",
+    "clean-android-pro": "ENVFILE=.env.production cd android && ./gradlew clean && ./gradlew --stop && ./gradlew cleanBuildCache && cd  ..",
+    "android-build-pro": "ENVFILE=.env.production npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
+
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",

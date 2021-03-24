@@ -82,6 +82,12 @@ project.ext.react = [
     enableHermes: false,  // clean and rebuild if changing
 ]
 
+project.ext.envConfigFiles = [
+  release: ".env.production",
+  debug: ".env.development",
+  developmentrelease: ".env.development",
+]
+
 apply from: "../../node_modules/react-native/react.gradle"
 
 project.ext.vectoricons = [
@@ -161,9 +167,16 @@ android {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
         }
+        release {
+            storeFile file(project.env.get("keyAlias"))
+            storePassword project.env.get("storePassword")
+            keyAlias project.env.get("storePassword")
+            keyPassword project.env.get("keyPassword")
+        }
     }
     buildTypes {
         debug {
+            matchingFallbacks = ['debug', 'release']
             signingConfig signingConfigs.debug
         }
         release {
@@ -172,6 +185,11 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+
+        developmentrelease {
+            initWith debug
+            applicationIdSuffix ".development"
         }
     }
 
