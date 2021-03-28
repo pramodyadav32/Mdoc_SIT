@@ -11,7 +11,7 @@ import { TouchableOpacity } from 'react-native';
 
 
 const LoginForm = (props) => {
-    const {doLogin} = props;
+    const {doLogin, intl} = props;
 
     return <View style={{flex:1}} >
                  <View style={{
@@ -33,7 +33,7 @@ const LoginForm = (props) => {
                         fontFamily: FONT_MEDIUM,
                         justifyContent:'center',
                         marginTop: RFValue(10, STANDARD_SCREEN_HEIGHT)
-                    }}>Log In</Text>
+                    }}>{intl.loginIn}</Text>
                 </View>
                 <Formik
                         initialValues={SignInFormInitialValues(props)}

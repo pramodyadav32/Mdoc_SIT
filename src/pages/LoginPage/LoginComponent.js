@@ -8,7 +8,7 @@ import { heightPercentageToDP, widthPercentageToDP } from 'react-native-responsi
 import LoginForm from './LoginForm';
 
 const LoginComponent = (props) => {
-   
+    const {intl} = props;
     return <View style={{flex:1,backgroundColor: THEME_COLOR}} >
                 <View style={{
                     width: '100%',

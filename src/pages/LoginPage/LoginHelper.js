@@ -1,4 +1,5 @@
 import * as yup from 'yup';
+import IntlProvider from '../../utils/IntlProvider';
 
 export const SignInFormInitialValues = (props) => ({
     username: '',
@@ -13,3 +14,9 @@ export const SignInFormValidator = (props) => {
         })
     )
 }
+
+export const loginIntlProvider =(props)=>({
+
+    loginIn:IntlProvider(props,'app/loginIn')
+
+})

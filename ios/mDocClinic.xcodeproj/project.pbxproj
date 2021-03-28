@@ -12,7 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		38D3F86E6FA66E7C678EBFC4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		38D3F86E6FA66E7C678EBFC4 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		482B6448260B865F00FAE097 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		482B6449260B865F00FAE097 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		482B644D260B865F00FAE097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -36,6 +36,7 @@
 		48AEFCE1260B924000F6A5ED /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */; };
 		48AEFCE2260B924000F6A5ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		48AEFCE3260B924000F6A5ED /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48AEFCC0260B909C00F6A5ED /* Poppins-Regular.ttf */; };
+		73EE3DD55F2382C71C590255 /* libPods-mDoc-mDocClinic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABFE44DF5E60B605358F761 /* libPods-mDoc-mDocClinic.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		CA52089F4FD62080A98120D5 /* libPods-mDoc-mDocClinic-mDocClinicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FECB6FF511BCFEDEC727B80B /* libPods-mDoc-mDocClinic-mDocClinicTests.a */; };
 		E31E11F1DFC40760E7B6E63C /* libPods-mDoc-mDocClinicProduction.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9EB54A2E00CF75E67FB018A /* libPods-mDoc-mDocClinicProduction.a */; };
@@ -64,6 +65,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mDocClinic/main.m; sourceTree = "<group>"; };
 		1CFD7685267AA8A160AB9E92 /* Pods-mDoc-mDocClinic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinic.release.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinic/Pods-mDoc-mDocClinic.release.xcconfig"; sourceTree = "<group>"; };
 		29105008C196DFE61255F967 /* Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig"; path = "Target Support Files/Pods-mDoc-mDocClinic-mDocClinicTests/Pods-mDoc-mDocClinic-mDocClinicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ABFE44DF5E60B605358F761 /* libPods-mDoc-mDocClinic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mDoc-mDocClinic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		482B6455260B865F00FAE097 /* mDocClinicDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mDocClinicDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AEFCBE260B909C00F6A5ED /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		48AEFCBF260B909C00F6A5ED /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
@@ -98,7 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38D3F86E6FA66E7C678EBFC4 /* (null) in Frameworks */,
+				38D3F86E6FA66E7C678EBFC4 /* BuildFile in Frameworks */,
+				73EE3DD55F2382C71C590255 /* libPods-mDoc-mDocClinic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +161,7 @@
 				FECB6FF511BCFEDEC727B80B /* libPods-mDoc-mDocClinic-mDocClinicTests.a */,
 				B17F8CC93161A2B9D0382259 /* libPods-mDoc-mDocClinicDevelopment.a */,
 				A9EB54A2E00CF75E67FB018A /* libPods-mDoc-mDocClinicProduction.a */,
+				3ABFE44DF5E60B605358F761 /* libPods-mDoc-mDocClinic.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

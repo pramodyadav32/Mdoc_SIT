@@ -6,7 +6,7 @@
  * @flow strict-local
  */
 
- import React from 'react';
+ import React, { useState, useEffect } from 'react';
  import {
    StyleSheet,
    View,
@@ -17,6 +17,10 @@
  import Route from './src/routes'
  import configureStore from './src/store/configureStore';
  import { Provider } from 'react-redux';
+ import { FormattedProvider, GlobalizeProvider } from 'react-native-globalize';
+
+ import metadata from './src/locales';
+
  
  console.disableYellowBox = true;
  const consoleMethods = [
@@ -65,16 +69,36 @@
  
  
  const App = () => {
+  const [ locale, setLocale] = useState("en");
+
+  const setUpLocale = async() => {
+    const locale = await metadata.locale();
+    setLocale(locale)
+  
+  }
+
+  useEffect(() => {
+   setUpLocale();
+  }, [])
+
    return (<Provider store={store}>
-           <View style={{flex:1}}>
-             {/* <SafeAreaView style={styles.topSafeArea} />
-             <SafeAreaView style={[{flex:1}, {...styles.bottomSafeArea}]}> */}
-                     <AppStatusBar backgroundColor={THEME_COLOR} barStyle="light-content" />  
-                     <NavigationContainer>
-                     <Route></Route>
-                     </NavigationContainer>   
-             {/* </SafeAreaView> */}
-           </View>
+            <FormattedProvider
+                      locale={locale}
+                      currency={metadata.currency()}
+                      messages={metadata.messages()}
+                      skeleton={metadata.dateformat}>
+                <GlobalizeProvider locale={locale} currency={metadata.currency()}>
+                    <View style={{flex:1}}>
+                      {/* <SafeAreaView style={styles.topSafeArea} />
+                      <SafeAreaView style={[{flex:1}, {...styles.bottomSafeArea}]}> */}
+                              <AppStatusBar backgroundColor={THEME_COLOR} barStyle="light-content" />  
+                              <NavigationContainer>
+                              <Route></Route>
+                              </NavigationContainer>   
+                      {/* </SafeAreaView> */}
+                    </View>
+           </GlobalizeProvider>
+           </FormattedProvider>
    </Provider>
    );
  };

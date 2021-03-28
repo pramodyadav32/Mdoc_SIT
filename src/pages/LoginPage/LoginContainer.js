@@ -1,18 +1,21 @@
 import  React, {useEffect} from 'react';
 import { Alert } from 'react-native';
  import {View} from 'react-native';
+import { withGlobalize } from 'react-native-globalize';
 import { useStore } from 'react-redux';
 import { doLoginActions } from '../../actions/authActions';
 import api from '../../api';
 import {  THEME_COLOR } from '../../utils/Const';
 
 import LoginComponent from './LoginComponent';
+import { loginIntlProvider } from './LoginHelper';
 
 const LoginContainer = (props) => {
    // const navigation = useNavigation()
-    //const store = useStore();
+    //const store = useStore();//
     const [loading, setLoading] = React.useState(false);
     const store = useStore();
+    const intl = loginIntlProvider(props);
     const doLogin = async(values) => {
       setLoading(true);
       const res = await api.user.loginUser({
@@ -40,9 +43,9 @@ const LoginContainer = (props) => {
 
 
     return <View style={{flex:1,backgroundColor: THEME_COLOR}} >
-               <LoginComponent doLogin={doLogin} {...props}/>
+               <LoginComponent doLogin={doLogin} intl={intl} {...props}/>
                
         </View>
 }
 
-export default LoginContainer;
+export default withGlobalize(LoginContainer);
